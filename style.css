@@ -1,0 +1,45 @@
+a {
+    background: -webkit-linear-gradient(#0000cd, #0000ff, #1e90ff, #80daeb);
+    text-shadow: 1px 1px 1px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+a:hover{
+    background: -webkit-linear-gradient(#3c3d46 45%, #dfdeeb 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 3px;
+}
+
+#grad {
+    background-image: linear-gradient(#add8e6, #80daeb, #87cefa, #00bfff, #1e90ff, #4169e1, #0000ff, #0000cd, #00308f, #00008b);
+  }
+#OpaHamburger{
+    font-size: 30px;
+    outline-style: solid;
+    outline-offset: 7px;
+    outline-width: 5px;
+    border-radius:  4px;
+    color: lightblue; 
+}
+.home-background{
+    background-image: linear-gradient(#add8e6, #80daeb, #87cefa, #00bfff, #1e90ff, #4169e1, #0000ff, #0000cd, #00308f, #00008b);
+}
+
+.index-form{
+    width: 100%;
+    padding-top: 160px;
+    padding-bottom: 70px;
+}
+
+.smed i {
+    color: #fff;
+    font-size: 40px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+  

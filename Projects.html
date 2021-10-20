@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<title>Hello, world!</title>
+</head>
+<body class="home-background">
+    <div class="container-fluid col-12" style="background-color: #00008b;">
+        <div class="row justify-content-center">
+            <div class="d-flex justify-content-center">
+                <img src="img\JNloggaspaghetti.png" class="img-fluid" class="header-img" alt="">
+            </div>
+        </div>     
+        <button onClick="Removebtn()"data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"
+        id="btnRevert" style="display:none;" class=" btn-outline-light bg-transparent position-absolute top-0 end-0">
+        X
+        </button>   
+        <nav class="navbar navbar-dark justify-content-center col">
+            <button onClick="Removebtn()"id="btnDisappear"class="navbar-toggler navbar-toggler-right"
+            type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" id="OpaHamburger"></span>
+            </button>
+            <div class="collapse navbar-collapse w-100 text-primary justify-content-end" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link h1" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h1" href="Projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link h1" href="Gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h1" href="About.html">About me</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link h1" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+<div class="container-fluid col-12 justify-content-center">
+    <div class="row justify-content-center">
+        <div class="col-sm-8 justify-content-center text-center">
+            <h1>Projects</h1>
+            <h3>I am still in a beginner stage in programming and haven't done much projects so far. But below i will post some of what i have done</h3>
+            <h5>Notice that the Projects page is also another page for me to expand my programming skills and try out the HTML, CSS and Bootstrap even more.</h5>
+        </div>
+        <div class="col-md-8 mb-4 mb-lg-0 text-black" style="font-size: 25px;">
+            <img
+              src="img/Phonebookimg.png"
+              class="w-100 shadow-1-strong rounded mb-4 "
+              alt=""
+            />
+            <p>
+                A very simple phonebook connected to a SQL-lite database.
+                My first ever Winforms application, did get quite alot of help
+                through videos on Youtube though.
+            </p>
+        
+            <img
+              src="img/GTN-game.png"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+            <p>A GuessTheNumber console game. One of the first finnished console applications i made apart from a calculator</p>
+      
+            <img
+            src="img/Echonet.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+            />
+            <p>
+                First ever website, But, I did it with ALOT of help from Youtube tutorials and following one specific 
+                YouTuber alot a.k.a <mark style="background-color: lightblue;">Dani Krossing</mark>            
+            </p>
+      
+            <img
+            src="img/JNfreelancepage.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+            />    
+            <p>
+                First ever website made from scratch with little help. Also first website i do using as much bootstrap as i could understand at the moment. <br>
+                It is responsive and it is the by far the biggest project i've done so far and i that i also got pretty happy with the result for the knowledge i possess at the moment         
+            </p> 
+    </div>
+</div>
+<script>
+    function Removebtn(){
+      var button = document.getElementById("btnDisappear");
+      var button2 = document.getElementById("btnRevert");
+      if(button.style.display === "none"){
+        button.style.display = "block";
+        button2.style.display = "none";
+      }
+      else{
+        button.style.display = "none";
+        button2.style.display = "block";
+      }
+    }
+  </script>
+  </body>
+</html>
